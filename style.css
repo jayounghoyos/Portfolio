@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: orange;
+}
+
+#loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    1
+  ); /* Cambia el valor de transparencia (0.8) según tus necesidades */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#animationWindow {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+/*navbar*/
+.container {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container a {
+  margin: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.container a:hover {
+  border-bottom: 2px solid orange;
+}
+
+.logo {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid orange;
+  border-radius: 50%;
+}
+
+/*ABOUT ME*/
+#about-me {
+  width: 100%;
+  margin-top: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+.inner-logo {
+  width: 200px;
+  height: 200px;
+  border: 2px solid orange;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.info {
+  margin-top: 70px;
+  text-align: center;
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+
+.info p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+/*projecs*/
+#projects {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+#projects div {
+  border: 2px solid gray;
+  margin: 0 5px 20px;
+  text-align: center;
+  max-width: 800px;
+  border-radius: 14px;
+}
+
+.project-img {
+  width: 350px;
+  height: 350px;
+}
+
+.project-icon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 5px;
+}
+
+.project-icon-large {
+  width: 50px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+#projects div p {
+  margin: 1px;
+  padding: 5px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/*Skills*/
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container {
+  margin: 60px;
+  border-radius: 14px;
+  box-shadow: 0px 13px 7px 15px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  word-wrap: break-word;
+}
+
+.skills-container .skill {
+  margin: 30px;
+  margin-left: 100px;
+}
+
+.skill {
+  width: 20%;
+}
+
+/*progress bar*/
+.progress-bar {
+  width: 400px;
+  height: 20px;
+  background-color: #eaeaea;
+  position: relative;
+}
+
+.progress-bar-gray {
+  border-radius: 14px;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  position: relative;
+  z-index: 1;
+}
+
+.progress-bar-orange {
+  border-radius: 14px;
+  height: 100%;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.progress-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 20px;
+  color: #fff;
+  font-weight: bold;
+  z-index: 3;
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(68, 68, 68);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid orange;
+  border-radius: 100%;
+}
