@@ -111,7 +111,9 @@ body {
   max-width: 800px;
   border-radius: 14px;
 }
-
+#projects-container div iframe{
+  border-radius: 14px;
+}
 .project-img {
   width: 350px;
   height: 350px;
