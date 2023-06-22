@@ -43,7 +43,7 @@ body {
 
 /*navbar*/
 .container {
-  background-color: lightgray;
+  background-color: #3c4652;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +53,7 @@ body {
   margin: 10px;
   font-size: 18px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .container a:hover {
@@ -87,7 +87,7 @@ body {
 .info {
   margin-top: 70px;
   text-align: center;
-  background-color: rgb(68, 68, 68);
+  background-color: #3c4652;
   color: white;
 }
 
@@ -98,14 +98,14 @@ body {
 }
 
 /*projecs*/
-#projects {
+#projects-container {
   display: flex;
   margin-top: 20px;
   justify-content: center;
 }
 
-#projects div {
-  border: 2px solid gray;
+#projects-container div {
+  border: 2px solid #3c4652;
   margin: 0 5px 20px;
   text-align: center;
   max-width: 800px;
@@ -115,6 +115,7 @@ body {
 .project-img {
   width: 350px;
   height: 350px;
+  border-radius: 14px;
 }
 
 .project-icon {
@@ -129,9 +130,16 @@ body {
   margin-bottom: 5px;
 }
 
-#projects div p {
-  margin: 1px;
-  padding: 5px;
+#projects-container div h3 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#projects-container div p {
+  font-size: 10px;
+  padding: 19px;
   text-align: center;
   word-wrap: break-word;
 }
@@ -144,7 +152,7 @@ body {
 }
 
 .skills-container {
-  margin: 60px;
+  margin: 30px;
   border-radius: 14px;
   box-shadow: 0px 13px 7px 15px rgba(0, 0, 0, 0.1);
   width: 600px;
@@ -152,12 +160,16 @@ body {
 }
 
 .skills-container .skill {
-  margin: 30px;
+  padding: 15px;
   margin-left: 100px;
+  width: 20%;
 }
 
-.skill {
-  width: 20%;
+#skills .skills-title {
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: orange;
 }
 
 /*progress bar*/
@@ -200,9 +212,12 @@ body {
 
 /*Footer*/
 footer {
-  background-color: rgb(68, 68, 68);
+  background-color: #3c4652;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .footer-logo {
@@ -211,4 +226,10 @@ footer {
   height: 200px;
   border: 5px solid orange;
   border-radius: 100%;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
 }
