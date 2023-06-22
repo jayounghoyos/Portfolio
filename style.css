@@ -102,6 +102,7 @@ body {
   display: flex;
   margin-top: 20px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #projects-container div {
@@ -212,6 +213,35 @@ body {
   color: #fff;
   font-weight: bold;
   z-index: 3;
+}
+
+/*Awards*/
+.awards-container div {
+  border: 3px solid orange;
+  border-radius: 14px;
+}
+
+.awards-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.awards-container h3 {
+  color: #3c4652;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.award-image {
+  padding: 1px;
+  border-radius: 14px;
+  width: 200px;
+  height: 300px;
 }
 
 /*Footer*/
