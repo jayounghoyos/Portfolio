@@ -217,6 +217,7 @@ body {
 
 /*Awards*/
 .awards-container div {
+  margin: 10px;
   border: 3px solid orange;
   border-radius: 14px;
 }
