@@ -216,6 +216,7 @@ body {
 
 /*Footer*/
 footer {
+  width: 100%;
   background-color: #3c4652;
   display: flex;
   flex-direction: column;
