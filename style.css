@@ -159,6 +159,7 @@ body {
 
 /*Skills*/
 #skills {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,9 +279,16 @@ footer {
   margin: 10px;
 }
 
-@media screen and (max-width >=375px){
-  .skills-container {
+@media screen and (max-width >=767px){
+  #skills {
     width: auto;
-    height: 100px;
+  }
+
+  #skills div{
+    width: auto;
+  }
+
+  .skills-container {
+    width: 30px;
   }
 }
