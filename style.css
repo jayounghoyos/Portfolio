@@ -279,16 +279,113 @@ footer {
   margin: 10px;
 }
 
-@media screen and (max-width >=767px){
-  #skills {
-    width: auto;
+/* Estilos para pantallas de hasta 480px de ancho */
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 40px;
   }
 
-  #skills div{
-    width: auto;
+  .container a {
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  #about-me {
+    margin-top: 30px;
+  }
+
+  .inner-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .dev-logo {
+    width: 80%;
+    height: auto;
+  }
+
+  .info p {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  #projects-container div {
+    max-width: 300px;
+  }
+
+  .project-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .project-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .project-icon-large {
+    width: 30px;
+    height: 40px;
+  }
+
+  #projects-container div h3 {
+    font-size: 16px;
+    padding: 3px;
+  }
+
+  #projects-container div p {
+    font-size: 6px;
+    padding: 8px;
   }
 
   .skills-container {
-    width: 30px;
+    margin: 10px;
+    width: 300px;
+  }
+
+  .skills-container .skill {
+    margin-left: 30px;
+    width: 20%;
+  }
+
+  .skills-container .progress-bar {
+    width: 200px;
+  }
+
+  .skills-container .progress-text {
+    line-height: 10px;
+  }
+
+  .awards-container div {
+    margin: 3px;
+    width: 100px;
+    height: 200px;
+  }
+
+  .awards-container h3 {
+    font-size: 12px;
+    padding: 3px;
+  }
+
+  .award-image {
+    width: 100px;
+    height: 150px;
+  }
+
+  .footer-logo {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    margin: 3px;
   }
 }
