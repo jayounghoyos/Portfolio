@@ -279,6 +279,118 @@ footer {
   margin: 10px;
 }
 
+/* Estilos para pantallas de hasta 768px de ancho */
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container a {
+    margin: 5px;
+    font-size: 16px;
+  }
+
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  #about-me {
+    margin-top: 50px;
+  }
+
+  .inner-logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .dev-logo {
+    width: 70%;
+    height: auto;
+  }
+
+  .info p {
+    font-size: 16px;
+    padding: 30px;
+  }
+
+  #projects-container div {
+    max-width: 400px;
+  }
+
+  .project-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .project-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .project-icon-large {
+    width: 40px;
+    height: 50px;
+  }
+
+  #projects-container div h3 {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  #projects-container div p {
+    font-size: 8px;
+    padding: 10px;
+  }
+
+  .skills-container {
+    margin: 15px;
+    width: 100%;
+  }
+
+  .skills-container .skill {
+    margin: 10px;
+    width: auto;
+  }
+
+  .skills-container .progress-bar {
+    width: 100%;
+  }
+
+  .skills-container .progress-text {
+    line-height: 15px;
+  }
+
+  .awards-container div {
+    margin: 5px;
+    width: 150px;
+    height: 250px;
+  }
+
+  .awards-container h3 {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .award-image {
+    width: 150px;
+    height: 200px;
+  }
+
+  .footer-logo {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .footer-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+}
+
 /* Estilos para pantallas de hasta 480px de ancho */
 
 @media screen and (max-width: 480px) {
@@ -345,16 +457,16 @@ footer {
 
   .skills-container {
     margin: 10px;
-    width: 300px;
+    width: 100%;
   }
 
   .skills-container .skill {
-    margin-left: 30px;
-    width: 20%;
+    margin: 5px;
+    width: auto;
   }
 
   .skills-container .progress-bar {
-    width: 200px;
+    width: 100%;
   }
 
   .skills-container .progress-text {
